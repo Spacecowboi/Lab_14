@@ -4,6 +4,7 @@ function AppState() {
   this.allProducts = [];
 }
 
+
 AppState.prototype.instantiateProducts = function () {
 
   const productNames = ['bag', 'banana', 'bathroom', 'boots', 'breakfast', 'bubblegum', 'chair', 'cthulhu', 'dog-duck', 'dragon', 'pen', 'pet-sweep', 'scissors', 'shark', 'sweep', 'tauntaun', 'unicorn', 'water-can', 'wine-glass'];
