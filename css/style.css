@@ -1,1 +1,70 @@
-/* TODO: Make it awesome */
+/* TODO: Make it awesome */ 
+/* styles.css */ 
+/* Reset some default styles to ensure consistent appearance */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+/* Set the background color to black for the Rasta theme */
+body {
+    background-color: #000;
+}
+/* Header style */
+header {
+    background-color: #E4202A; /* Red */
+    color: #fff; /* White */
+    padding: 20px;
+    text-align: center;
+}
+/* Navigation menu style */
+nav {
+    background-color: #FEB902; /* Yellow */
+    text-align: center;
+    padding: 10px 0;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+nav ul li a {
+    color: #000; /* Black */
+    text-decoration: none;
+    padding: 5px 10px;
+}
+nav ul li a:hover {
+    background-color: #fff; /* White */
+    color: #000; /* Black */
+}
+/* Main content area style */
+main {
+    padding: 20px;
+    color: #fff; /* White */
+}
+/* Footer style */
+footer {
+    background-color: #1F7A1F; /* Green */
+    color: #fff; /* White */
+    text-align: center;
+    padding: 10px;
+    position: abs;
+    bottom: 0;
+    width: 100%;
+}
+img {
+    size: 300px;
+    width: 250px;
+    height: 250px;
+    display: block;
+    margin: auto;
+    border: solid;
+    border-color: #1F7A1F;
+    border-style: solid;
+    border-width: 5px 0;
+}
