@@ -13,8 +13,7 @@ let canvasElem = document.getElementById('chart')
 
 const myAppState = new AppState();
 
-
-
+myAppState.allProducts();
 
 function renderChart() {
 }
