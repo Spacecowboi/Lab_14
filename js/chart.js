@@ -11,7 +11,7 @@ let canvasElem = document.getElementById('chart')
  *
  */
 
-const newObject = new AppState();
+const myAppState = new AppState();
 
 
 
